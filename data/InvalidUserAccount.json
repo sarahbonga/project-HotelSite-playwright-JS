@@ -1,0 +1,26 @@
+[
+    {
+        "email" : "clark@example.com!",
+        "password" : "password",
+        "errorType" : "InvalidEmail",
+        "errorMsg" : "Please enter a non-empty email address."
+    },
+    {
+        "email" : "clark@example.com",
+        "password" : "password!",
+        "errorType" : "InvalidPassword",
+        "errorMsg": "Email or password is invalid."
+    },
+    {
+        "email" : "",
+        "password" : "password",
+        "errorType" : "BlankEmail",
+        "errorMsg": "Please fill out this field."
+    },
+    {
+        "email" : "diana@example.com",
+        "password" : "",
+        "errorType" : "BlankPassword",
+        "errorMsg": "Please fill out this field."
+    }
+]

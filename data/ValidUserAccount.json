@@ -1,0 +1,22 @@
+[
+    {
+        "email" : "clark@example.com",
+        "password" : "password",
+        "membership" : "Premium"
+    },
+    {
+        "email" : "diana@example.com",
+        "password" : "pass1234",
+        "membership" : "Normal"
+    },
+    {
+        "email" : "ororo@example.com",
+        "password" : "pa55w0rd!",
+        "membership" : "Premium"
+    },
+    {
+        "email" : "miles@example.com",
+        "password" : "pass-pass",
+        "membership" : "Normal"
+    }
+]

@@ -1,0 +1,6 @@
+testCaseNo,testObjective,email,password,planName,checkinDate,breakfast,earlyCheckin,sightseeing,confirmationMethod,totalCost
+1,Premium User - Book Premium plan on Weekend,clark@example.com,password,Premium plan,2025/2/22,Yes,No,No,By email,270
+2,Premium User - Book Premium plan on Weekday,clark@example.com,password,Premium plan,2025/2/27,Yes,No,No,By email,220
+3,Premium User - Book Non-Premium plan on Weekend,clark@example.com,password,Economical,2025/2/22,Yes,No,No,By email,85
+4,Normal User - Book Non-Premium plan on Weekend,diana@example.com,pass1234,Economical,2025/2/22,Yes,No,No,None,85
+5,Normal User - Book Non-Premium plan on Weekday,miles@example.com,pass-pass,Economical,2025/3/24,No,No,No,None,60
