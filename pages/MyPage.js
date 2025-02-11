@@ -6,12 +6,12 @@ class MyPage {
         this.email = page.locator('#email');
         this.membership = page.locator('#rank');
         this.myPageTitle = page.getByText('MyPage');
-        this.reservePage = page.locator('a[href="./plans.html"]');
+        this.planPage = page.locator('a[href="./plans.html"]');
     };
 
-    // Method to navigate to the Reserve page
-    async goToReservePage(){
-        await this.reservePage.click();
+    // Method to navigate to the Plan page
+    async goToPlanPage(){
+        await this.planPage.click();
         await this.page.waitForLoadState();
     };
 };
