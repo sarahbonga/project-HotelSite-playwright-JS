@@ -25,8 +25,8 @@ test.describe('E2E Booking Reservation Tests', () => {
             await homePage.goToLoginPage();
             await loginPage.userLogin(testData.email, testData.password);
 
-            //Go to Reserve Page after Log-in
-            await myPage.goToReservePage();
+            //Go to Plan Page after Log-in
+            await myPage.goToPlanPage();
 
             // Verify the desired plan is available on the plan page
             await expect(await planPage.planList.locator('.card-title').filter({ hasText: testData.planName })).toHaveCount(1);
