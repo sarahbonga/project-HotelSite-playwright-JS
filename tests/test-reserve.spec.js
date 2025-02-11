@@ -9,10 +9,9 @@ const { ConfirmPage } = require('../pages/ConfirmPage');
 
 test.describe('E2E Booking Reservation Tests', () => {
     for (const testData of E2E_TestData) {
-        test(`Verify Test Case# ${testData.testCaseNo} for ${testData.testObjective}`, async ({ browser }) => {
-            // Create a new browser context and page
-            const context = await browser.newContext();
-            const page = await context.newPage();
+        test(`Verify Test Case# ${testData.testCaseNo} for ${testData.testObjective}`, async ({ page }) => {
+            // Get the existing test context
+            const context = await page.context();
 
             // Create page objects
             const homePage = new HomePage(page);
