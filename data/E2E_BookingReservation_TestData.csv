@@ -1,5 +1,5 @@
 testCaseNo,testObjective,email,password,planName,checkinDate,breakfast,earlyCheckin,sightseeing,confirmationMethod,totalCost
-1,Premium User - Book Premium plan on Weekend,clark@example.com,password,Premium plan,2/22/2025,Yes,No,No,By email,$270.00 
-2,Premium User - Book Premium plan on Weekday,clark@example.com,password,Premium plan,2/27/2025,Yes,No,No,By email,$220.00 
-3,Premium User - Book Non-Premium plan on Weekend,clark@example.com,password,Economical,2/22/2025,Yes,No,No,By email,$85.00 
-4,Normal User - Book Non-Premium plan on Weekend,diana@example.com,pass1234,Economical,2/22/2025,Yes,No,No,None,$85.00 
+1,Premium User - Book Premium plan on Weekend,clark@example.com,password,Premium plan,2025/2/22,Yes,No,No,By email,$270.00
+2,Premium User - Book Premium plan on Weekday,clark@example.com,password,Premium plan,2025/2/27,Yes,No,No,By email,$220.00
+3,Premium User - Book Non-Premium plan on Weekend,clark@example.com,password,Economical,2025/2/22,Yes,No,No,By email,$85.00
+4,Normal User - Book Non-Premium plan on Weekend,diana@example.com,pass1234,Economical,2025/2/22,Yes,No,No,None,$85.00
